@@ -1,5 +1,21 @@
   body {
-    background-color: #9e7eff;
+    background-color: #40a8c4;
+    font-family: 'Merriweather', serif;
+  }
+
+  h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h3 {
+    color: yellow;
+    font-family: 'Montserrat', sans-serif;
   }
 
   hr {
@@ -9,15 +25,15 @@
     width: 10%;
   }
 
-  h3 {
-    color: yellow;
-  }
-
   img {
     height: 250px;
-    background-color: transparent;
+    align-self: center;
   }
 
-#heading {
-  color: yellow;
-}
+  .tai {
+    align-self: center;
+  }
+
+  #heading {
+    color: yellow;
+  }
