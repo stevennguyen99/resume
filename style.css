@@ -4,24 +4,24 @@ a {
 
 body {
   background-color: #9ddfd3;
-  font-family: 'Merriweather', serif;
-  font-size: 15px;
+  font-family: 'Montserrat', serif;
+  font-size: 20px;
 }
 
 h1 {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Ubuntu', cursive;
   font-size: 50px;
   text-align: center;
   color: #e11d74;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   color: #e11d74;
 }
@@ -41,8 +41,26 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+  font-family: 'Ubuntu'
 }
 
+.profile-pic{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.summary{
+  padding-left: 3%;
+}
+
+.resume {
+  padding-left: 3%;
+}
+
+.resume-item {
+  padding-bottom: 1%;
+}
 .tai {
   text-align: center;
   height: 250px;
@@ -53,14 +71,24 @@ hr {
   height: 40px;
 }
 
+.icon-fa {
+  color: #e11d74
+}
+
 .footer-link {
   margin-right: 10px;
 }
 
 .flaticon {
-  font-size: 10px;
+  font-size: 15px;
+  padding-left: 3%;
+  padding-bottom: 1%
 }
 
+
+.copyright {
+  padding-top: 1%;
+}
 
 .copyright:hover {
   color: #e11d74;
