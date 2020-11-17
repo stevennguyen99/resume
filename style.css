@@ -33,6 +33,42 @@ hr {
   color: #e11d74;
 }
 
+#experience, #education, #hobbies, #skills, #moments, #bookme {
+  padding-left: 3%;
+  padding-top: 1%;
+}
+
+#heading {
+  padding-top: 2%;
+}
+
+.profile-pic {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.tai {
+  text-align: center;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+/* Summary  */
+
+.feature-division {
+  text-align: center;
+}
+
+.feature-icon {
+  color: #e11d74;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: blue;
+}
+
 .bottom-container {
   text-align: center;
 }
@@ -44,28 +80,6 @@ hr {
   font-family: 'Ubuntu'
 }
 
-.profile-pic{
-  text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.summary{
-  padding-left: 3%;
-}
-
-.resume {
-  padding-left: 3%;
-}
-
-.resume-item {
-  padding-bottom: 1%;
-}
-.tai {
-  text-align: center;
-  height: 250px;
-  margin-bottom: 20px;
-}
 
 .icon {
   height: 40px;
@@ -114,4 +128,27 @@ hr {
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+}
+
+/* Photo Section */
+
+.photo-division {
+  text-align: center;
+}
+
+.my-photos {
+  width: 60%;
+  border-radius: 5%;
+  padding-bottom: 1%;
+}
+
+.my-photo-vertical {
+  height: 750px;
+  border-radius: 5%
+}
+
+/* Book Me Section */
+
+.book-me-div {
+  text-align: center;
 }
